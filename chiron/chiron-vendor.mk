@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/chiron/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/xiaomi/chiron/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/xiaomi/chiron/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
     vendor/xiaomi/chiron/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/xiaomi/chiron/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/xiaomi/chiron/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
@@ -149,7 +150,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/xiaomi/chiron/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/xiaomi/chiron/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/xiaomi/chiron/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
     vendor/xiaomi/chiron/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
+    vendor/xiaomi/chiron/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
     vendor/xiaomi/chiron/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/xiaomi/chiron/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/chiron/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -647,6 +650,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
