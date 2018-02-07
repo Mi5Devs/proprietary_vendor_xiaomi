@@ -144,8 +144,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/chiron/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/chiron/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/chiron/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/chiron/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
+    vendor/xiaomi/chiron/proprietary/lib64/hw/fingerprint.fpc.msm8998.so:system/lib64/hw/fingerprint.fpc.msm8998.so \
+    vendor/xiaomi/chiron/proprietary/lib64/hw/fingerprint.goodix.msm8998.so:system/lib64/hw/fingerprint.goodix.msm8998.so \
     vendor/xiaomi/chiron/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/xiaomi/chiron/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/xiaomi/chiron/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
