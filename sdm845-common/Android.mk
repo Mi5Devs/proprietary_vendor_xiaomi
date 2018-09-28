@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter dipper polaris,$(TARGET_DEVICE)),)
+ifneq ($(filter dipper polaris ursa,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := chargeonlymode
