@@ -16,6 +16,16 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_liteon_chromatix.xml:system/etc/camera/imx378_liteon_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_semco_chromatix.xml:system/etc/camera/imx378_semco_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_a7_chromatix.xml:system/etc/camera/ov4688_a7_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_primax_a7_chromatix.xml:system/etc/camera/ov4688_primax_a7_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9891.cnt \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Global_cal.acdb \
@@ -24,25 +34,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_liteon_chromatix.xml:system/etc/camera/imx378_liteon_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_semco_chromatix.xml:system/etc/camera/imx378_semco_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_a7_chromatix.xml:system/etc/camera/ov4688_a7_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_primax_a7_chromatix.xml:system/etc/camera/ov4688_primax_a7_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.elf \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.mdt \
-    vendor/xiaomi/capricorn/proprietary/vendor/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9891.cnt \
-    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml \
-    vendor/xiaomi/capricorn/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/xiaomi/capricorn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/capricorn/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
-    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
-    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
-    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libSonyIMX378PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX378PdafLibrary.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libactuator_ak7371_a7_liteon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_a7_liteon.so \
