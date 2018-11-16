@@ -114,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
     vendor/xiaomi/jason/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/xiaomi/jason/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    vendor/xiaomi/jason/proprietary/vendor/bin/nqnfcinfo:$(TARGET_COPY_OUT_VENDOR)/bin/nqnfcinfo \
     vendor/xiaomi/jason/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/xiaomi/jason/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/xiaomi/jason/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
@@ -812,6 +813,7 @@ PRODUCT_PACKAGES += \
     embms \
     ims \
     imssettings \
+    uceShimService \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
