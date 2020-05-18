@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,10 +20,11 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/bin/glgps:$(TARGET_COPY_OUT_VENDOR)/bin/glgps \
     vendor/xiaomi/equuleus/proprietary/vendor/bin/gps.cer:$(TARGET_COPY_OUT_VENDOR)/bin/gps.cer \
+    vendor/xiaomi/equuleus/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/equuleus/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/equuleus/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/xiaomi/equuleus/proprietary/vendor/bin/hw/vendor.qti.secure_element@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.secure_element@1.0-service \
-    vendor/xiaomi/equuleus/proprietary/vendor/bin/ignss_1_1:$(TARGET_COPY_OUT_VENDOR)/bin/ignss_1_1 \
+    vendor/xiaomi/equuleus/proprietary/vendor/bin/ignss_2_0:$(TARGET_COPY_OUT_VENDOR)/bin/ignss_2_0 \
     vendor/xiaomi/equuleus/proprietary/vendor/bin/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/lhd \
     vendor/xiaomi/equuleus/proprietary/vendor/bin/remosaic_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/remosaic_daemon \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/SensorHub.patch:$(TARGET_COPY_OUT_VENDOR)/etc/SensorHub.patch \
@@ -62,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/gpsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpsconfig.xml \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
+    vendor/xiaomi/equuleus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/init/vendor.qti.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.0-service.rc \
@@ -149,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/camera/components/com.arcsoft.node.superlowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.arcsoft.node.superlowlight.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/camera/components/com.mi.node.aiadd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.mi.node.aiadd.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/camera/components/com.mi.node.aiasd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.mi.node.aiasd.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/camera/components/com.morpho.node.videorefiner.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.morpho.node.videorefiner.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.addconstant.so \
@@ -214,31 +215,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libarcsoft_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_portrait_lighting.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libarcsoft_portrait_lighting_c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_portrait_lighting_c.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libarcsoft_supernight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_supernight.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
+    vendor/xiaomi/equuleus/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamera_dirty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_dirty.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_scene.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamxstaticaecalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstaticaecalgo.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamxstaticawbalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstaticawbalgo.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libdiag_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag_jni.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libevent_observer.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgarden.so \
+    vendor/xiaomi/equuleus/proprietary/vendor/lib/libft2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2vendor.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_core.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
+    vendor/xiaomi/equuleus/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libmibokeh_845.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_845.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/libmorpho_video_refiner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_video_refiner.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnanopb.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
@@ -256,34 +251,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
     vendor/xiaomi/equuleus/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib/vendor.qti.hardware.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifi.keystore@1.0.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/android.hardware.gnss@1.1-impl-xiaomi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.1-impl-xiaomi.so \
+    vendor/xiaomi/equuleus/proprietary/vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.0-impl-xiaomi.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/hw/fingerprint.goodix_fod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_fod.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/hw/fingerprint.syna.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.syna.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/hw/flp.brcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.brcm.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/hw/gps.brcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.brcm.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libHalSuperSensorServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHalSuperSensorServer.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libSuperSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensor.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libSuperSensorCPU.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorCPU.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_front.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_rear_t.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_rear_w.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_supernight.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinder.so \
+    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libdiag_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_jni.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiagjni.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libgf_ca_gf9118.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gf9118.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libgf_hal_gf9118.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gf9118.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libgoodixhwfingerprint_gf9118.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint_gf9118.so \
@@ -291,10 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libmibokeh_845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_845.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
@@ -302,10 +278,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/equuleus/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
-    vendor/xiaomi/equuleus/proprietary/vendor/lib64/vendor.synaptics.fingerprints.interfaces.extensions@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.synaptics.fingerprints.interfaces.extensions@1.0.so
+    vendor/xiaomi/equuleus/proprietary/vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
