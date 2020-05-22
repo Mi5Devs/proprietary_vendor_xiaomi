@@ -18,15 +18,15 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/whyred
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b00 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b01 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b02 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b03 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b04 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b05 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b06 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b07 \
-    vendor/xiaomi/whyred/proprietary/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.mdt \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
+    vendor/xiaomi/whyred/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/xiaomi/whyred/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/xiaomi/whyred/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
