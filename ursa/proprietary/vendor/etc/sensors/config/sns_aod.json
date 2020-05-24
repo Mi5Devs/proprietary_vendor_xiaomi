@@ -15,10 +15,10 @@
 	      "ver": "0", "type": "flt", "data": "300"
 	    },
 	    "param2": {
-	      "ver": "0", "type": "flt", "data": "6500"
+	      "ver": "2", "type": "flt", "data": "2000"
 	    },
 	    "param3": {
-	      "ver": "0", "type": "flt", "data": "8500"
+	      "ver": "2", "type": "flt", "data": "3000"
 	    },
 	    "param4": {
 	      "ver": "0", "type": "flt", "data": "0"
