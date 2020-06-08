@@ -199,22 +199,3 @@ dex_import {
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
-cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.fm@1.0",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/product/lib/vendor.qti.hardware.fm@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/product/lib64/vendor.qti.hardware.fm@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	product_specific: true,
-}
-
