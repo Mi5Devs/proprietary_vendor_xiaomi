@@ -167,7 +167,7 @@ android_app_import {
 	name: "TimeService",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
+	certificate: ":timeservice_app_cert-legacy-um",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -280,5 +280,12 @@ dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
+cc_prebuilt_binary {
+	name: "chargeonlymode",
+	owner: "xiaomi",
+	srcs: ["proprietary/bin/chargeonlymode"],
+	prefer: true,
 }
 
