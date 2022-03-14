@@ -1,0 +1,15 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "SIRIUS", "GRUS"],
+    "soc_id": ["291", "246", "305","393","360"]
+  },
+  "sns_cm":{
+    "owner": "sns_cm",
+    ".heap_config":{
+      "owner": "sns_cm",
+        "heap_size":{ "type": "int", "ver": "0",
+          "data": "1572864"
+        }
+    }
+  }
+}
