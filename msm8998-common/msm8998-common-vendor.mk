@@ -512,7 +512,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     TimeService \
     QtiTelephonyService \
-    datastatusnotification \
     uceShimService \
     dpmserviceapp \
     ims \
