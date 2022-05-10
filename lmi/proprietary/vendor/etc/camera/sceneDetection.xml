@@ -127,16 +127,18 @@
         <dxo_nightview_bright_ratio_thresh>0.008</dxo_nightview_bright_ratio_thresh>
         <dxo_nightview_dark_thresh>50</dxo_nightview_dark_thresh>
         <dxo_nightview_dark_ratio_thresh>0.3</dxo_nightview_dark_ratio_thresh>
-        <dxo_lux_index_thresh>270</dxo_lux_index_thresh>
+        <dxo_lux_index_thresh>310</dxo_lux_index_thresh>
         <dxo_middle_low>80</dxo_middle_low>
         <dxo_middle_high>200</dxo_middle_high>
-        <dxo_middle_ratio_thresh>0.5</dxo_middle_ratio_thresh>
+        <dxo_middle_ratio_thresh>0.4</dxo_middle_ratio_thresh>
 
-        <dxo_lux_index_thresh_face>360.0</dxo_lux_index_thresh_face>
+        <dxo_lux_index_thresh_face>400.0</dxo_lux_index_thresh_face>
         <dxo_nightview_light_face>10.0</dxo_nightview_light_face>
         <dxo_nightview_dark_ratio_thresh_face>0.18</dxo_nightview_dark_ratio_thresh_face>
         <dxo_nightview_middle_ratio_thresh_face>0.5</dxo_nightview_middle_ratio_thresh_face>
         <dxo_nightview_bright_ratio_thresh_face>0.008</dxo_nightview_bright_ratio_thresh_face>
+
+        <dxo_nightview_extreme_dark_lux>440.0</dxo_nightview_extreme_dark_lux>
 
   </dxo_nightview>
 

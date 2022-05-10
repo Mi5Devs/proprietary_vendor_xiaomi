@@ -30,11 +30,20 @@
 #
 
 service vendor.sensors.qti /vendor/bin/sensors.qti
-    class core
+    class main
     user system
     group system
+    disabled
+    oneshot
+
+on property:debug.sensors.diag_buffer_log=true
+    start vendor.sensors.qti
+
+on property:debug.sensors.diag_buffer_log=false
+    stop vendor.sensors.qti
 
 service vendor-sensor-sh /vendor/bin/init.qcom.sensors.sh
     class late_start
-    user root
+    user system
+    group system
     oneshot

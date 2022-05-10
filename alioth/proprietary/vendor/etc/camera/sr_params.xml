@@ -1,6 +1,6 @@
 <TetrasSRParams>
     
-    <SRVersion>SR_X_SDM_V3.0.1.2164_M1.63_k11a</SRVersion>
+    <SRVersion>SR_X_SDM_V3.0.1.2901_M1.63_k11a_2021-06-02 22:02:47</SRVersion>
 
     <SRParams>
         <ParamGroup>
@@ -15,6 +15,8 @@
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
                         <Mutable_AlignMask_Threshold>24</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -62,7 +64,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>40</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -110,7 +113,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>24</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -158,6 +162,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -181,15 +187,15 @@
                         <Mutable_Edge_MaskAmount>0</Mutable_Edge_MaskAmount>
                     </DetailYDnoise>
                     <UVDnoise>
-                         <Mutable_LevelStrength1>1.00</Mutable_LevelStrength1>
-                         <Mutable_LevelStrength2>0.60</Mutable_LevelStrength2>
+                         <Mutable_LevelStrength1>1.50</Mutable_LevelStrength1>
+                         <Mutable_LevelStrength2>0.80</Mutable_LevelStrength2>
                          <Mutable_LevelStrength3>0.30</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.20</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.10</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>1.10</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>0.70</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>0.60</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>0.20</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength1>3.50</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>2.50</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>1.70</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>0.30</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0.10</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
@@ -205,6 +211,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>16</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>9</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -252,6 +260,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>11</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -275,16 +285,16 @@
                         <Mutable_Edge_MaskAmount>0</Mutable_Edge_MaskAmount>
                     </DetailYDnoise>
                     <UVDnoise>
-                         <Mutable_LevelStrength1>1.00</Mutable_LevelStrength1>
-                         <Mutable_LevelStrength2>0.70</Mutable_LevelStrength2>
-                         <Mutable_LevelStrength3>0.30</Mutable_LevelStrength3>
+                         <Mutable_LevelStrength1>2.40</Mutable_LevelStrength1>
+                         <Mutable_LevelStrength2>1.70</Mutable_LevelStrength2>
+                         <Mutable_LevelStrength3>1.00</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.20</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.10</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>2.10</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>1.10</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>0.70</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>0.20</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>0.10</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>5.10</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>3.10</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>1.70</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>1.20</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>0.30</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>1.5</Mutable_ImplementScale>
@@ -299,6 +309,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>14</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -347,6 +359,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>14</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -395,6 +409,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>20</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>30000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -423,8 +439,8 @@
                          <Mutable_LevelStrength3>1.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>9</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>7</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
                          <Mutable_MotionLevelStrength3>4</Mutable_MotionLevelStrength3>
                          <Mutable_MotionLevelStrength4>2</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
@@ -443,6 +459,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>25</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>40000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -451,7 +469,7 @@
                         <Mutable_EdgeDilate>1.5</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>2.5</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>4.5</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_K_Detail>0.10</Mutable_Edge_K_Detail>
                         <Mutable_Edge_K_Stretch>2.0</Mutable_Edge_K_Stretch>
@@ -471,11 +489,11 @@
                          <Mutable_LevelStrength3>1.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>1</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>0</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>15</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>12</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>7</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>3</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>2</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>1.5</Mutable_ImplementScale>
@@ -490,6 +508,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>30</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>80000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -498,7 +518,7 @@
                         <Mutable_EdgeDilate>1.5</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>4.0</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>7.0</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_K_Detail>0.30</Mutable_Edge_K_Detail>
                         <Mutable_Edge_K_Stretch>2.0</Mutable_Edge_K_Stretch>
@@ -518,11 +538,11 @@
                          <Mutable_LevelStrength3>1.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>1</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>0</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>18</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>12</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>8</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>5</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>3</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>1.5</Mutable_ImplementScale>
@@ -545,7 +565,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>24</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -593,7 +614,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>40</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -641,7 +663,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>24</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -689,6 +712,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -713,14 +738,14 @@
                     </DetailYDnoise>
                     <UVDnoise>
                          <Mutable_LevelStrength1>1.00</Mutable_LevelStrength1>
-                         <Mutable_LevelStrength2>0.60</Mutable_LevelStrength2>
-                         <Mutable_LevelStrength3>0.30</Mutable_LevelStrength3>
-                         <Mutable_LevelStrength4>0.20</Mutable_LevelStrength4>
-                         <Mutable_LevelStrength5>0.10</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>1.10</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>0.70</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>0.60</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>0.20</Mutable_MotionLevelStrength4>
+                         <Mutable_LevelStrength2>0.80</Mutable_LevelStrength2>
+                         <Mutable_LevelStrength3>0.50</Mutable_LevelStrength3>
+                         <Mutable_LevelStrength4>0.10</Mutable_LevelStrength4>
+                         <Mutable_LevelStrength5>0.05</Mutable_LevelStrength5>
+                         <Mutable_MotionLevelStrength1>2.10</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>1.40</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>0.70</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>0.30</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0.10</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
@@ -736,6 +761,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>16</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>8</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -783,6 +810,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>10</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -830,6 +859,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>14</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -878,6 +909,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>14</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -926,6 +959,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>20</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>30000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -974,6 +1009,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>27</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>60000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -982,7 +1019,7 @@
                         <Mutable_EdgeDilate>2.0</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>4.0</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>6.0</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_K_Detail>0.10</Mutable_Edge_K_Detail>
                         <Mutable_Edge_K_Stretch>2.0</Mutable_Edge_K_Stretch>
@@ -1002,8 +1039,8 @@
                          <Mutable_LevelStrength3>1.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength1>15</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>12</Mutable_MotionLevelStrength2>
                          <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
                          <Mutable_MotionLevelStrength4>1</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0</Mutable_MotionLevelStrength5>
@@ -1021,16 +1058,17 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>70</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>35</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>80000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
-                        <Mutable_EdgeAmount>23.00</Mutable_EdgeAmount>
+                        <Mutable_EdgeAmount>22.00</Mutable_EdgeAmount>
                         <Mutable_CgIncrease>0</Mutable_CgIncrease>
                         <Mutable_EdgeDilate>2.0</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>6.0</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>10.0</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_K_Detail>0.50</Mutable_Edge_K_Detail>
                         <Mutable_Edge_K_Stretch>2.0</Mutable_Edge_K_Stretch>
@@ -1050,11 +1088,11 @@
                          <Mutable_LevelStrength3>4.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>2.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>1.2</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>15</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>10</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>6</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>4</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>2</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>21</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>16</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>12</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>8</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>4</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>2.0</Mutable_ImplementScale>
@@ -1077,6 +1115,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1124,6 +1164,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1171,6 +1213,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1218,6 +1262,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>8</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1265,6 +1311,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>16</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>12</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1312,6 +1360,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>14</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1359,6 +1409,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>16</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1406,6 +1458,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>16</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1434,11 +1488,11 @@
                          <Mutable_LevelStrength3>1.10</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.30</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.10</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>4.10</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>2.10</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>1.70</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>0.40</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>0.20</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>6.10</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>4.10</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>2.00</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>1.40</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>0.60</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -1453,6 +1507,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>20</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>30000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1500,6 +1556,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>24</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>40000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1528,11 +1586,11 @@
                          <Mutable_LevelStrength3>2.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>1.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.5</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>2</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>15</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>12</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>8</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>5</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>3</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -1547,6 +1605,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>30</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>60000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1575,11 +1635,11 @@
                          <Mutable_LevelStrength3>2.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>1.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.5</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>2</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>18</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>14</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>8</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>5</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>3</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -1594,6 +1654,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>35</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>80000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1602,7 +1664,7 @@
                         <Mutable_EdgeDilate>4.0</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise> 
-                        <Mutable_CtTreshold>5.5</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>7.5</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_K_Radius_Lr>1</Mutable_Edge_K_Radius_Lr>
                         <Mutable_Edge_K_Detail>0.40</Mutable_Edge_K_Detail>
@@ -1622,11 +1684,11 @@
                          <Mutable_LevelStrength3>2.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>1.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.5</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>2</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>18</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>14</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>8</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>5</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>3</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -1649,6 +1711,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1696,6 +1760,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1743,6 +1809,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1790,6 +1858,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1837,6 +1907,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>10</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -1884,6 +1956,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>15</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1931,6 +2005,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>30</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>20</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1959,10 +2035,10 @@
                          <Mutable_LevelStrength3>1.9</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.1</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>1</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength1>15</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>10</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>7</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>3</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0.2</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
@@ -1978,6 +2054,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>30</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>27</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>30000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -1986,7 +2064,7 @@
                         <Mutable_EdgeDilate>4</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>4.5</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>5.0</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_k_Radius_Lr>1</Mutable_Edge_k_Radius_Lr>
                         <Mutable_Edge_K_Detail>0.1</Mutable_Edge_K_Detail>
@@ -2006,10 +2084,10 @@
                          <Mutable_LevelStrength3>2.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>1.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>5</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>3</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength1>16</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>13</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>9</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>4</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0.5</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
@@ -2025,6 +2103,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>30</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>33</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>80000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2033,7 +2113,7 @@
                         <Mutable_EdgeDilate>4</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>5.5</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>7.5</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_k_Radius_Lr>1</Mutable_Edge_k_Radius_Lr>
                         <Mutable_Edge_K_Detail>0.3</Mutable_Edge_K_Detail>
@@ -2053,11 +2133,11 @@
                          <Mutable_LevelStrength3>2.6</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>1.5</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>5</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength1>18</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>13</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>8</Mutable_MotionLevelStrength3>
                          <Mutable_MotionLevelStrength4>3</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>0.5</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -2080,6 +2160,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2127,6 +2209,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -2174,6 +2258,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -2221,6 +2307,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>8</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -2268,6 +2356,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>8</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.95</Mutable_EdgeSigma>
@@ -2315,6 +2405,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>14</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2362,7 +2454,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>60</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>20</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>20000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2410,7 +2503,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>60</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>27</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>40000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2439,11 +2533,11 @@
                          <Mutable_LevelStrength3>2.30</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>1.50</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.20</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>8</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>6</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>2</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>0.50</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>11</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>9</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>5</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>3</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -2458,7 +2552,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>60</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>33</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>60000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2467,7 +2562,7 @@
                         <Mutable_EdgeDilate>4</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>5.0</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>7.0</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_K_Detail>0.2</Mutable_Edge_K_Detail>
                         <Mutable_Edge_K_Stretch>3.0</Mutable_Edge_K_Stretch>
@@ -2487,11 +2582,11 @@
                          <Mutable_LevelStrength3>2.30</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>1.50</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.20</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>10</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>6</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                         <Mutable_MotionLevelStrength4>2</Mutable_MotionLevelStrength4>
-                         <Mutable_MotionLevelStrength5>0.50</Mutable_MotionLevelStrength5>
+                         <Mutable_MotionLevelStrength1>14</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>11</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>7</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength4>4</Mutable_MotionLevelStrength4>
+                         <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -2514,6 +2609,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2561,6 +2658,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>9</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2608,7 +2707,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
-                        <Mutable_AlignMask_Threshold>20</Mutable_AlignMask_Threshold>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2656,6 +2756,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>6</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>12</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>6</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2684,9 +2786,9 @@
                          <Mutable_LevelStrength3>0.50</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.20</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.10</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>2.40</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>1.20</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>0.80</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength1>4.40</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>3.20</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>1.80</Mutable_MotionLevelStrength3>
                          <Mutable_MotionLevelStrength4>0.40</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0.20</Mutable_MotionLevelStrength5>
                     </UVDnoise>
@@ -2703,6 +2805,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>16</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>9</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2750,6 +2854,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>12</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2797,6 +2903,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>20</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>15</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2844,6 +2952,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>20</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>10000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2891,6 +3001,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>25</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>40000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2939,6 +3051,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>30</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>60000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2967,11 +3081,11 @@
                         <Mutable_LevelStrength3>1.6</Mutable_LevelStrength3>
                         <Mutable_LevelStrength4>0.5</Mutable_LevelStrength4>
                         <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                        <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                        <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                        <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                        <Mutable_MotionLevelStrength4>1</Mutable_MotionLevelStrength4>
-                        <Mutable_MotionLevelStrength5>0</Mutable_MotionLevelStrength5>
+                        <Mutable_MotionLevelStrength1>15</Mutable_MotionLevelStrength1>
+                        <Mutable_MotionLevelStrength2>11</Mutable_MotionLevelStrength2>
+                        <Mutable_MotionLevelStrength3>7</Mutable_MotionLevelStrength3>
+                        <Mutable_MotionLevelStrength4>3</Mutable_MotionLevelStrength4>
+                        <Mutable_MotionLevelStrength5>1</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>
@@ -2987,6 +3101,8 @@
                         <Mutable_SharpBoxFilterRadius>1</Mutable_SharpBoxFilterRadius>
                         <Mutable_SharpGradientThresh>8</Mutable_SharpGradientThresh>
                         <Mutable_ModelRefMaskThresh>24</Mutable_ModelRefMaskThresh>
+                        <Mutable_AlignMask_Threshold>33</Mutable_AlignMask_Threshold>
+                        <Mutable_KeyPoints_KL_MinEigenThr>80000</Mutable_KeyPoints_KL_MinEigenThr>
                     </ParamAlignment>
                     <ParamSharpness>
                         <Mutable_EdgeSigma>0.85</Mutable_EdgeSigma>
@@ -2995,7 +3111,7 @@
                         <Mutable_EdgeDilate>4</Mutable_EdgeDilate>
                     </ParamSharpness>
                     <DetailYDnoise>
-                        <Mutable_CtTreshold>5.0</Mutable_CtTreshold>
+                        <Mutable_CtTreshold>7.0</Mutable_CtTreshold>
                         <Mutable_Edge_K_Radius>1</Mutable_Edge_K_Radius>
                         <Mutable_Edge_K_Detail>0.3</Mutable_Edge_K_Detail>
                         <Mutable_Edge_K_Stretch>3.0</Mutable_Edge_K_Stretch>
@@ -3015,11 +3131,11 @@
                         <Mutable_LevelStrength3>1.6</Mutable_LevelStrength3>
                         <Mutable_LevelStrength4>0.5</Mutable_LevelStrength4>
                         <Mutable_LevelStrength5>0.2</Mutable_LevelStrength5>
-                        <Mutable_MotionLevelStrength1>12</Mutable_MotionLevelStrength1>
-                        <Mutable_MotionLevelStrength2>8</Mutable_MotionLevelStrength2>
-                        <Mutable_MotionLevelStrength3>3</Mutable_MotionLevelStrength3>
-                        <Mutable_MotionLevelStrength4>1</Mutable_MotionLevelStrength4>
-                        <Mutable_MotionLevelStrength5>0</Mutable_MotionLevelStrength5>
+                        <Mutable_MotionLevelStrength1>17</Mutable_MotionLevelStrength1>
+                        <Mutable_MotionLevelStrength2>13</Mutable_MotionLevelStrength2>
+                        <Mutable_MotionLevelStrength3>8</Mutable_MotionLevelStrength3>
+                        <Mutable_MotionLevelStrength4>4</Mutable_MotionLevelStrength4>
+                        <Mutable_MotionLevelStrength5>2</Mutable_MotionLevelStrength5>
                     </UVDnoise>
                     <InnerDimension>
                          <Mutable_ImplementScale>4.0</Mutable_ImplementScale>

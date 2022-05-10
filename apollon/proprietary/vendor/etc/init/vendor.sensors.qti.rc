@@ -44,5 +44,6 @@ on property:debug.sensors.diag_buffer_log=false
 
 service vendor-sensor-sh /vendor/bin/init.qcom.sensors.sh
     class late_start
-    user root
+    user system
+    group system
     oneshot
