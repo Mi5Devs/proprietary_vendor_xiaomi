@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter monet picasso vangogh gauguin,$(TARGET_DEVICE)),)
+ifneq ($(filter monet picasso vangogh,$(TARGET_DEVICE)),)
 
 endif
