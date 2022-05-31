@@ -24,22 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/Elevoc/Elevoc_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Elevoc/Elevoc_Headset_cal.acdb \
     vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/Elevoc/Elevoc_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Elevoc/Elevoc_Speaker_cal.acdb \
     vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/Elevoc/Elevoc_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Elevoc/Elevoc_workspaceFile.qwsp \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Bluetooth_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_General_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Global_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Handset_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Hdmi_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Headset_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_Speaker_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-lagoonmtp-snd-card/MTP_Lagoon_workspaceFile.qwsp \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Bluetooth_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_General_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Global_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Handset_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Hdmi_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Headset_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_Speaker_cal.acdb \
-    vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_workspaceFile.qwsp \
     vendor/xiaomi/monet/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/monet/proprietary/vendor/etc/camera/CFR_para_HD_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_HD_V01.bin \
     vendor/xiaomi/monet/proprietary/vendor/etc/camera/CFR_para_T_5x_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_T_5x_V01.bin \
