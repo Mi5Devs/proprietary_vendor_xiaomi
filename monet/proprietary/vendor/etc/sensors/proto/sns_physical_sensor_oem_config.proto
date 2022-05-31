@@ -59,6 +59,9 @@ enum sns_physical_sensor_oem_config_type
   SNS_PHYSICAL_SENSOR_CONFIG_LOWLCD = 9;
 
   SNS_PHYSICAL_SENSOR_CONFIG_PRX2LUX = 10;
+
+  // Communication sensor backlight compensation calibration.
+  SNS_PHYSICAL_SENSOR_CONFIG_BACKLIGHT_COMPENSATION = 12;
 }
 
 // Physical Sensor oem configuration request
@@ -98,6 +101,7 @@ message sns_physical_sensor_oem_config_event
   optional int32 poffset1 = 3;
   optional int32 poffset2 = 4;
   optional int32 color = 5;
+  optional int32 coefficient = 6;
 }
 
 // Self-test and streaming concurrency requirements:

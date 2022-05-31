@@ -1,3 +1,3 @@
-Acc icm4x6xx_0_platform.accel.fac_cal.bias /vendor/etc/sensors/config/sm7250_icm4x6xx_0.json 0
-Gyr icm4x6xx_0_platform.gyro.fac_cal.bias /vendor/etc/sensors/config/sm7250_icm4x6xx_0.json 0
-Lux bu27030_0_platform.ambient_light.fac_cal /vendor/etc/sensors/config/sm7250_bu27030_0.json 0
+Acc icm4x6xx_0_platform.accel.fac_cal.bias /vendor/etc/sensors/config/sm7250_icm4x6xx_0.json 0 icm4x6xx
+Gyr icm4x6xx_0_platform.gyro.fac_cal.bias /vendor/etc/sensors/config/sm7250_icm4x6xx_0.json 0 icm4x6xx
+Lux bu27030_0_platform.ambient_light.fac_cal /vendor/etc/sensors/config/sm7250_bu27030_0.json 0 rohm_bu27030
