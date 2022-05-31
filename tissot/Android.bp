@@ -39,3 +39,10 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+dex_import {
+	name: "com.fingerprints.extension",
+	owner: "xiaomi",
+	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
+	soc_specific: true,
+}
+
