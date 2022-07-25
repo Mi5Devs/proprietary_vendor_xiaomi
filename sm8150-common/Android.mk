@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter cepheus raphael vayu,$(TARGET_DEVICE)),)
+ifneq ($(filter andromeda cepheus crux nabu raphael vayu,$(TARGET_DEVICE)),)
 
 endif
