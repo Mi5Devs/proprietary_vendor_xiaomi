@@ -1,0 +1,28 @@
+{
+  "config":
+  {
+    "hw_platform": ["VELA", "LYRA", "Surf", "PYXIS"],
+    "soc_id": ["355", "246", "305", "360"]
+  },
+  "tmd3702":{
+    "owner": "sns_tmd3702",
+    ".prox":{
+      "owner": "sns_tmd3702",
+      ".config":{
+        "owner": "sns_tmd3702",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}

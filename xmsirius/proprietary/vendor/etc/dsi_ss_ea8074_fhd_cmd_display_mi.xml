@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <color>
+        <NodeTree>
+            <NodeName>lcm cta unlimitedCT eyeCare hbm ccbb wpCalib sunlightScreen maxBrightness dcBacklight</NodeName>
+        </NodeTree>
+        <lcm>
+            <lcmParamName>lcm_num lcm_array</lcmParamName>
+            <lcm_num>3</lcm_num>
+            <lcm_array>3.18020013778823 -1.33485852025382 -0.525944903273713 -0.738722345742797 1.61454541467235  0.0634813982173785 0.018280308219805 -0.0692271509463269 0.855379964771293</lcm_array>
+        </lcm>
+        <cta>
+            <ctaParamName>ctimes ttimes_us xydiv change nativeCT enterFactor exitFactor envCTTable panelCTTable lightTable lightCompensations</ctaParamName>
+            <ctimes>10</ctimes>
+            <ttimes_us>200</ttimes_us>
+            <xydiv>1</xydiv>
+            <change>20</change>
+            <nativeCT>7400</nativeCT>
+            <enterFactor>0.003</enterFactor>
+            <exitFactor>0.01</exitFactor>
+            <envCTTable>4500 5000 5500 6000 6500 7000 7500</envCTTable>
+            <panelCTTable>4500 5000 5500 6000 6500 7000 7500</panelCTTable>
+            <lightTable>0</lightTable>
+            <lightCompensations>0</lightCompensations>
+        </cta>
+        <unlimitedCT>
+            <unlimitedCTParamName>strength default cold warm uiParamMin paramMax dimmingTime dimmingStep</unlimitedCTParamName>
+            <strength>55</strength>
+            <default>255 255 255</default>
+            <cold>229 235 255</cold>
+            <warm>255 242 221</warm>
+            <uiParamMin>100</uiParamMin>
+            <paramMax>255</paramMax>
+            <dimmingTime>50</dimmingTime>
+            <dimmingStep>20</dimmingStep>
+        </unlimitedCT>
+        <eyeCare>
+            <eyeCareParamName>nativeCTIndex eyeCareIndex eyeCareRestoreTime</eyeCareParamName>
+            <nativeCTIndex>36</nativeCTIndex>
+            <eyeCareIndex>18 14 10 8 5 3 1 -2 -4 -7 -9 -12 -14 -17 -19 -22 -24 -25 -26 -28 -29 -31 -32 -33 -34 -36 -37 -38 -40 -42 -43 -44</eyeCareIndex>
+            <eyeCareRestoreTime>25</eyeCareRestoreTime>
+        </eyeCare>
+        <hbm>
+            <hbmParamName>hbmTrigerLux hbmExitThreshold hbmKeepOnMaxTime hbmRestTime maxBL closeDelay</hbmParamName>
+            <hbmTrigerLux>10000</hbmTrigerLux>
+            <hbmExitThreshold>5000</hbmExitThreshold>
+            <hbmKeepOnMaxTime>1800</hbmKeepOnMaxTime>
+            <hbmRestTime>600</hbmRestTime>
+            <maxBL>1023</maxBL>
+            <closeDelay>3</closeDelay>
+        </hbm>
+        <ccbb>
+            <ccbbParamName>xCoeff yCoeff blThreshold deltaX deltaY</ccbbParamName>
+            <xCoeff>-8976 6834230 1177544775</xCoeff>
+            <yCoeff>2260 661236 316363221</yCoeff>
+            <blThreshold>16 50</blThreshold>
+            <deltaX>-0.0113686</deltaX>
+            <deltaY>-0.00279</deltaY>
+        </ccbb>
+        <wpCalib>
+            <wpCalibParamName>targetWP targetWPXY rgbCoordinatexyl xRange yRange xyComp xyOffset</wpCalibParamName>
+            <targetWP>0.305 0.32</targetWP>
+            <targetWPXY>0.953125 1 1.171875</targetWPXY>
+            <!-- Rx Gx Bx Ry Gy By RLv GLv BLv -->
+            <rgbCoordinatexyl>0.674 0.268 0.15 0.322 0.69 0.06 0 0 0</rgbCoordinatexyl>
+            <xRange>0.285 0.325</xRange>
+            <yRange>0.3 0.34</yRange>
+            <xyComp>0.172 0.192</xyComp>
+            <xyOffset>-0.002 -0.005</xyOffset>
+        </wpCalib>
+        <sunlightScreen>
+            <sunlightScreenParamName>level delay coeff0 coeff1 coeff2 coeff3 coeff4 coeff5 coeff6 coeff7 coeff8 coeff9 coeff10 coeff11 coeff12 coeff13 coeff14 coeff15 threshold</sunlightScreenParamName>
+            <level>16</level>
+            <!-- ms -->
+            <delay>50</delay>
+            <coeff0>1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000</coeff0>
+            <coeff1>1.02207 0.00126 -0.0176 -0.00869 1.03263 -0.01798 -0.00837 0.00003 1.01335</coeff1>
+            <coeff2>1.03964 -0.00081 -0.02979 -0.01566  1.05338 -0.02915 -0.01423 -0.00156 1.02348</coeff2>
+            <coeff3>1.05803 0.00038 -0.03062 -0.01634 1.07408 -0.03131 -0.01451 -0.00129 1.042</coeff3>
+            <coeff4>1.06776 -0.00034 -0.03923 -0.0213 1.08918 -0.04131 -0.01858 -0.00183 1.04815</coeff4>
+            <coeff5>1.08436 -0.00093 -0.05373 -0.02878 1.11254 -0.05489 -0.02539 -0.00218 1.05755</coeff5>
+            <coeff6>1.11486 -0.00286 -0.05494 -0.02908 1.13846 -0.05314 -0.02547 -0.0028 1.08472</coeff6>
+            <coeff7>1.13161 -0.00334 -0.06971 -0.03783 1.16212 -0.06607 -0.03301 -0.00372 1.09611</coeff7>
+            <coeff8>1.15187 -0.00604 -0.08537 -0.04732 1.18923 -0.08165 -0.04052 -0.00456 1.10661</coeff8>
+            <coeff9>1.17059 -0.00825 -0.10014 -0.05651 1.2155 -0.09842 -0.04892 -0.00604 1.1178</coeff9>
+            <coeff10>1.19023 -0.00813 -0.11917 -0.06693 1.24476 -0.11578 -0.05706 -0.00768 1.1292</coeff10>
+            <coeff11>1.21732 -0.01134 -0.13974 -0.07984 1.27892 -0.13477 -0.06926 -0.0077 1.14466</coeff11>
+            <coeff12>1.23742 -0.00956 -0.14159 -0.08092 1.3018 -0.13914 -0.06989 -0.00793 1.16498</coeff12>
+            <coeff13>1.25858 -0.01067 -0.16076 -0.09317 1.335 -0.15791 -0.08014 -0.00987 1.17835</coeff13>
+            <coeff14>1.28335 -0.0133 -0.18152 -0.105 1.36767 -0.17793 -0.08963 -0.01211 1.19069</coeff14>
+            <coeff15>1.30872 -0.01442 -0.20448 -0.11806 1.40307 -0.19854 -0.10158 -0.01174 1.20386</coeff15>
+            <threshold>2000 2200 2400 2600 2800 3000 3300 3500 3800 4100 4500 4800 5000 5300 5600</threshold>
+        </sunlightScreen>
+        <maxBrightness>
+            <maxBrightnessParamName>maxBrightnessEnable typicalBrightness startBrightness brightnessStep</maxBrightnessParamName>
+            <maxBrightnessEnable>0</maxBrightnessEnable>
+            <typicalBrightness>430</typicalBrightness>
+            <startBrightness>408</startBrightness>
+            <brightnessStep>1.5</brightnessStep>
+        </maxBrightness>
+        <dcBacklight>
+            <dcBacklightParamName>minBL DCBLThreshold DCBLStartPcc DCBLStep DCBLCoeff0 DCBLCoeff1 DcCmd0 DcCmd1 DcCmd2 DcCmd3 DcCmd4 AIDCycleCmd0 AIDCycleCmd1 AIDCycleCmd2 AIDCycleCmd3 AIDCycleCmd4 AID1CycleCmd0 AID1CycleCmd1 AID4CycleCmd0 AID4CycleCmd1</dcBacklightParamName>
+            <minBL>2</minBL>
+            <DCBLThreshold>320</DCBLThreshold>
+            <DCBLStartPcc>0.022</DCBLStartPcc>
+            <DCBLStep>0.002</DCBLStep>
+            <DCBLCoeff0>1.25016</DCBLCoeff0>
+            <DCBLCoeff1>-1.22128</DCBLCoeff1>
+            <DcCmd0>00 00 39 00 00 00 00 00 03 F0 5A 5A</DcCmd0>
+            <DcCmd1>00 00 39 00 00 00 00 00 03 E2 00 41</DcCmd1>
+            <DcCmd2>00 00 39 00 00 00 00 00 03 E2 00 85</DcCmd2>
+            <DcCmd3>00 00 39 00 00 00 00 00 02 B0 2C</DcCmd3>
+            <DcCmd4>00 00 39 01 00 00 00 00 03 F0 A5 A5</DcCmd4>
+            <AIDCycleCmd0>00 00 39 00 00 00 00 00 03 F0 5A 5A</AIDCycleCmd0>
+            <AIDCycleCmd1>00 00 39 00 00 00 00 00 02 B0 16</AIDCycleCmd1>
+            <AIDCycleCmd2>00 00 39 00 00 00 00 00 02 B0 02</AIDCycleCmd2>
+            <AIDCycleCmd3>00 00 39 00 00 00 00 00 02 F7 03</AIDCycleCmd3>
+            <AIDCycleCmd4>00 00 39 01 00 00 00 00 03 F0 A5 A5</AIDCycleCmd4>
+            <AID1CycleCmd0>00 00 39 00 00 00 00 00 02 B2 10</AID1CycleCmd0>
+            <AID1CycleCmd1>00 00 39 00 00 00 00 00 02 B2 00</AID1CycleCmd1>
+            <AID4CycleCmd0>00 00 39 00 00 00 00 00 02 B2 40</AID4CycleCmd0>
+            <AID4CycleCmd1>00 00 39 00 00 00 00 00 02 B2 80</AID4CycleCmd1>
+        </dcBacklight>
+    </color>
+</root>
