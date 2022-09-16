@@ -186,9 +186,62 @@ android_app_import {
 }
 
 dex_import {
+	name: "audiosphere",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/audiosphere.jar"],
+}
+
+dex_import {
+	name: "org.simalliance.openmobileapi",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/org.simalliance.openmobileapi.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+}
+
+dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "QtiTelephonyServicelibrary",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
@@ -205,6 +258,9 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/bin/chargeonlymode"],
 	check_elf_files: false,
+	strip: {
+		none: true,
+	},
 	prefer: true,
 }
 
