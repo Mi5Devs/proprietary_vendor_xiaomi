@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ursa/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
     vendor/xiaomi/ursa/proprietary/vendor/etc/sensors/config/tsl2584.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tsl2584.json \
     vendor/xiaomi/ursa/proprietary/vendor/etc/sensors/config/vl53l0_tof_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/vl53l0_tof_0.json \
-    vendor/xiaomi/ursa/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/ursa/proprietary/vendor/etc/tas2557.ftcfg:$(TARGET_COPY_OUT_VENDOR)/etc/tas2557.ftcfg \
     vendor/xiaomi/ursa/proprietary/vendor/etc/tas2557_goer.ftcfg:$(TARGET_COPY_OUT_VENDOR)/etc/tas2557_goer.ftcfg \
     vendor/xiaomi/ursa/proprietary/vendor/etc/thermal-engine-sdm845-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm845-arvr.conf \
