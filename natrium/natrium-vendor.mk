@@ -6,15 +6,15 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/natrium
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx258_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_mono_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx258_mono_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_mono_ofilm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx258_mono_ofilm_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_ofilm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx258_ofilm_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_b7_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_b7_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_primax_b7_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_primax_b7_chromatix.xml \
     vendor/xiaomi/natrium/proprietary/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/natrium/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/camera/imx258_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/camera/imx258_mono_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_ofilm_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/camera/imx258_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_ofilm_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/camera/ov4688_b7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_b7_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/vendor/etc/camera/ov4688_primax_b7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_primax_b7_chromatix.xml \
     vendor/xiaomi/natrium/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/natrium/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/natrium/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Global_cal.acdb \
